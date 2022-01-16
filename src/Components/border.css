@@ -1,0 +1,9 @@
+.border {
+    border: 0.9rem solid #000000;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    position: fixed;
+    overflow: hidden;
+    z-index: -10;
+}

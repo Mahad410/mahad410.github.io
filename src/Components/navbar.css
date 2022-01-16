@@ -1,0 +1,31 @@
+.navbar {
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.code {
+    color: orange;
+    visibility: hidden;
+}
+
+a:hover .code {
+    visibility: visible;
+}

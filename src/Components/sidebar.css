@@ -1,0 +1,17 @@
+.container_side {
+    position: fixed;
+    right: 2rem;
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a {
+    -ms-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+}

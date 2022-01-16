@@ -1,0 +1,48 @@
+.main-container {
+    position: fixed;
+    z-index: -9;
+    box-sizing: border-box;
+    width: 85%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    bottom: 1.5%;
+}
+
+.co {
+    color: orange;
+}
+
+.co_text {
+    font-size: 1.2rem;
+}
+
+.figure {
+    margin: 0.9rem auto;
+}
+
+.figure figcaption {
+    color: orange;
+    margin: 0.2rem auto;
+}
+
+.skills {
+    margin: 1rem auto;
+    font-size: 1.3rem;
+}
+
+.desc {
+    font-size: 1.1rem;
+}
+
+.intro h1 {
+    font-size: 3rem;
+}
+
+.del {
+    text-decoration: 3px line-through orange;
+}
+
+.co_und {
+    text-decoration: 3px underline orange;
+}
