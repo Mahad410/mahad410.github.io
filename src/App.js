@@ -16,7 +16,6 @@ function App() {
   <Nav />
   <Sidebar />  
   <div>
-    <Home />
   <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/contact-me" element={<Contact />} />
