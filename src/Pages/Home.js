@@ -9,7 +9,7 @@ function Home(){
         <div className="main-container">
         <div className="intro">
         <h1>
-                  Mahid Qureshi <span className="co_text">( <span className="co">&lt;</span> Web Developer <span className="co">/&gt;</span> )</span>
+            Mahid Qureshi <span className="co_text">( <span className="co">&lt;</span> Web Developer <span className="co">/&gt;</span> )</span>
         </h1>
         
         <p className="skills">
