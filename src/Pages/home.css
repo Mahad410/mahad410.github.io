@@ -3,10 +3,11 @@
     z-index: -9;
     box-sizing: border-box;
     width: 85%;
+    margin: auto;
     display: grid;
     place-items: center;
     grid-template-columns: 1fr 1fr;
-    bottom: 1.5%;
+    bottom: 1.7%;
 }
 
 .co {
@@ -18,25 +19,27 @@
 }
 
 .figure {
-    margin: 0.9rem auto;
+    margin: 5rem auto;
 }
 
 .figure figcaption {
     color: orange;
-    margin: 0.2rem auto;
+    margin: 0.5rem auto;
 }
 
 .skills {
-    margin: 1rem auto;
+    margin: 1.5rem auto;
     font-size: 1.3rem;
 }
 
 .desc {
     font-size: 1.1rem;
+    line-height: 25px;
+    margin: 1.8rem auto;
 }
 
 .intro h1 {
-    font-size: 3rem;
+    font-size: 2.9rem;
 }
 
 .del {

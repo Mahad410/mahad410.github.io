@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.css';
 import use from './pics/use.webm';
-import usep from './pics/usep.jpg';
+import usep from './pics/usep.webp';
 import {Link} from 'react-router-dom'
 
 function Home(){

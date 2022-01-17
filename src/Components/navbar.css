@@ -29,3 +29,7 @@ a {
 a:hover .code {
     visibility: visible;
 }
+
+.logo {
+    filter: invert(100%);
+}
