@@ -2,7 +2,7 @@
     position: fixed;
     z-index: -9;
     box-sizing: border-box;
-    width: 85%;
+    width: 85vw;
     margin: auto;
     display: grid;
     place-items: center;
@@ -48,4 +48,5 @@
 
 .co_und {
     text-decoration: 3px underline orange;
+    color: #fff;
 }

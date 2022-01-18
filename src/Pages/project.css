@@ -1,0 +1,48 @@
+.pro_container {
+    width: 86vw;
+    height: 87vh;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+    position: fixed;
+    top: 10%;
+}
+
+.p_container {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #101010;
+    border-radius: 15px;
+    text-align: center;
+    border: 3px solid #000;
+    overflow: hidden;
+}
+
+.btn {
+    background-color: orange;
+    border: none;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 28px;
+    cursor: pointer;
+    font-family: 'Varela Round';
+    font-display: swap;
+    font-size: 0.9rem;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.p_container .detail p {
+    padding: 10px;
+}
+
+.btn-see {
+    display: block;
+    text-align: center;
+}

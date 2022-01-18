@@ -1,9 +1,9 @@
 .container_side {
     position: fixed;
-    right: 3rem;
-    height: 78vh;
+    right: 2.5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    height: 90vh;
 }
 
 .a {

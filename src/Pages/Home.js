@@ -13,11 +13,11 @@ function Home(){
         </h1>
         
         <p className="skills">
-        Developer with skills of <span className="co">HTML</span> | <span className="co">CSS</span> | <span className="co">SASS</span> | <span className="co">Bootstrap</span> | <span className="co">JQuery</span> | <span className="co">JavaScript</span> | <span className="co">WordPress</span> | <span className="co">WordPress</span> | 
+        Developer with skills of <span className="co">HTML</span> | <span className="co">CSS</span> | <span className="co">SASS</span> | <span className="co">Bootstrap</span> | <span className="co">JQuery</span> | <span className="co">JavaScript</span> | <span className="co">WordPress</span>
         </p> 
         <p className="desc">
              <span className="co">Passionate</span> and <span className="co">Inspiring</span> developer who is building his <span className="co">Reputation</span> and will do everything to achieve his <span className="co">Dreams</span>.
-             if you want to <span className="co">Hire</span> me then <span className="co">Hmu....</span> and if you dont want to <span className="del">hire</span> then do check my<Link to="/projects"><span className="co_und">Projects</span></Link>
+             if you want to <span className="co">Hire</span> me then <span className="co">Hmu....</span> and if you dont want to <span className="del">hire</span> then do check my <Link to="/projects"><span className="co_und">Projects</span></Link>
         </p>
 
         <figure className="figure">
