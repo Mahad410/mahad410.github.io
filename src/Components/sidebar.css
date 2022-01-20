@@ -3,7 +3,8 @@
     right: 2.5%;
     display: flex;
     justify-content: center;
-    height: 90vh;
+    height: 100vh;
+    top: 1%;
 }
 
 .a {

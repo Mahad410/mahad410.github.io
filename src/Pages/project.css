@@ -1,12 +1,12 @@
 .pro_container {
     width: 86vw;
-    height: 87vh;
+    height: 82vh;
     box-sizing: border-box;
     margin: auto;
     padding: 10px;
     overflow: hidden;
     position: fixed;
-    top: 10%;
+    top: 15%;
 }
 
 .p_container {
@@ -16,10 +16,14 @@
     padding: 15px;
     box-sizing: border-box;
     background-color: #101010;
-    border-radius: 15px;
+    border-radius: 10px;
     text-align: center;
     border: 3px solid #000;
     overflow: hidden;
+}
+
+.p_container:hover {
+    background-color: #090909;
 }
 
 .btn {
@@ -45,4 +49,8 @@
 .btn-see {
     display: block;
     text-align: center;
+}
+
+img {
+    border-radius: 5px;
 }

@@ -85,7 +85,7 @@ function Project(){
                 </div>
                 { p4&&(
                 <div className="detail">
-                   <p> My business <span className="co">Goodwork.co</span>with embeded form. </p>
+                   <p> My business <span className="co">Goodwork.co</span> with embeded form. </p>
                 </div>
                 )}
 

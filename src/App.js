@@ -6,7 +6,7 @@ import Sidebar from "./Components/Sidebar";
 import {Routes,Route} from "react-router-dom";
 
 import Home from "./Pages/Home";
-import Contact from "./Pages/Contact";
+import Service from "./Pages/Service";
 import Project from "./Pages/Projects";
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
   <div>
   <Routes>
             <Route  path="/" element={<Home />} />
-            <Route path="/contact-me" element={<Contact />} />
+            <Route path="/services" element={<Service />} />
             <Route path="/projects" element={<Project />} />
   </Routes>
   
