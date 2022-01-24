@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.139c04b2.css",
-    "main.js": "/static/js/main.d1b94d19.js",
+    "main.css": "/static/css/main.5b225555.css",
+    "main.js": "/static/js/main.6e9000df.js",
     "static/js/787.8c081f57.chunk.js": "/static/js/787.8c081f57.chunk.js",
     "static/media/use.webm": "/static/media/use.3980d5e38183423b070b.webm",
+    "static/media/cisco.webp": "/static/media/cisco.6b592ea942581cb8dcfa.webp",
+    "static/media/udemy.webp": "/static/media/udemy.2c2f77ed68d1f949b16d.webp",
+    "static/media/google.webp": "/static/media/google.73a61f2310bdeb0fde2d.webp",
     "static/media/portfolio.webp": "/static/media/portfolio.b4a6c1cc6d5c05356d0f.webp",
     "static/media/goodwork.webp": "/static/media/goodwork.4f9caed5bb4d54a908b5.webp",
     "static/media/usep.webp": "/static/media/usep.eb1653732b5f14b985e8.webp",
     "static/media/discord.webp": "/static/media/discord.731c8022c34747570aef.webp",
     "static/media/halloween.webp": "/static/media/halloween.b3ed8f8074ab848433a7.webp",
     "static/media/spotify.webp": "/static/media/spotify.6bb5cfb84cebd278fbfd.webp",
+    "static/media/freecode.webp": "/static/media/freecode.a7fc01d7ad45785cd9ac.webp",
+    "static/media/coursera.webp": "/static/media/coursera.dfb3e6cf73d402f74bf4.webp",
     "static/media/mouse.webp": "/static/media/mouse.329dee8f1e89ab06fb17.webp",
     "static/media/site.svg": "/static/media/site.421c2ca4d3f939183f5de6e6aaef43c7.svg",
     "static/media/promo.webp": "/static/media/promo.47d2fc37d818806449d2.webp",
@@ -17,12 +22,12 @@
     "static/media/road.svg": "/static/media/road.db08a0bdcf777e74d52881d80c45f648.svg",
     "static/media/rp.svg": "/static/media/rp.5a0597aa922e275beea52b5e614cb194.svg",
     "index.html": "/index.html",
-    "main.139c04b2.css.map": "/static/css/main.139c04b2.css.map",
-    "main.d1b94d19.js.map": "/static/js/main.d1b94d19.js.map",
+    "main.5b225555.css.map": "/static/css/main.5b225555.css.map",
+    "main.6e9000df.js.map": "/static/js/main.6e9000df.js.map",
     "787.8c081f57.chunk.js.map": "/static/js/787.8c081f57.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.139c04b2.css",
-    "static/js/main.d1b94d19.js"
+    "static/css/main.5b225555.css",
+    "static/js/main.6e9000df.js"
   ]
 }
