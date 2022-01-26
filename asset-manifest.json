@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.ecfebe59.css",
-    "main.js": "/static/js/main.1e92d674.js",
-    "static/js/787.1d7f70df.chunk.js": "/static/js/787.1d7f70df.chunk.js",
+    "main.css": "/static/css/main.1ddd8c3f.css",
+    "main.js": "/static/js/main.f3c88c21.js",
+    "static/js/787.8c081f57.chunk.js": "/static/js/787.8c081f57.chunk.js",
     "static/media/use.webm": "/static/media/use.3980d5e38183423b070b.webm",
     "static/media/g_cert.webp": "/static/media/g_cert.94cba4275517b18278b7.webp",
     "static/media/g_cer.webp": "/static/media/g_cer.0b0edd2d0ce5d37dbc8b.webp",
     "static/media/linux_essen.webp": "/static/media/linux_essen.6ecb31d7bf527dd71245.webp",
     "static/media/udemy.webp": "/static/media/udemy.2c2f77ed68d1f949b16d.webp",
     "static/media/net_essen.webp": "/static/media/net_essen.d6cb3e925592169f8e43.webp",
-    "static/media/html_css.pdf": "/static/media/html_css.3183d9d6d21f7b6c5106.pdf",
     "static/media/coursera.webp": "/static/media/coursera.dfb3e6cf73d402f74bf4.webp",
     "static/media/entre.webp": "/static/media/entre.3551d42425979c2d0b71.webp",
     "static/media/cisco.webp": "/static/media/cisco.6b592ea942581cb8dcfa.webp",
@@ -32,12 +31,12 @@
     "static/media/road.svg": "/static/media/road.db08a0bdcf777e74d52881d80c45f648.svg",
     "static/media/rp.svg": "/static/media/rp.5a0597aa922e275beea52b5e614cb194.svg",
     "index.html": "/index.html",
-    "main.ecfebe59.css.map": "/static/css/main.ecfebe59.css.map",
-    "main.1e92d674.js.map": "/static/js/main.1e92d674.js.map",
-    "787.1d7f70df.chunk.js.map": "/static/js/787.1d7f70df.chunk.js.map"
+    "main.1ddd8c3f.css.map": "/static/css/main.1ddd8c3f.css.map",
+    "main.f3c88c21.js.map": "/static/js/main.f3c88c21.js.map",
+    "787.8c081f57.chunk.js.map": "/static/js/787.8c081f57.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecfebe59.css",
-    "static/js/main.1e92d674.js"
+    "static/css/main.1ddd8c3f.css",
+    "static/js/main.f3c88c21.js"
   ]
 }
