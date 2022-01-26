@@ -1,5 +1,5 @@
 .pro_container {
-    width: 85vw;
+    width: 90vw;
     height: 82vh;
     box-sizing: border-box;
     margin: auto;
@@ -9,17 +9,17 @@
     top: 15%;
     right: 0;
     left: 0;
+    text-align: center;
 }
 
 .p_container {
     display: inline-block;
     width: 30%;
-    margin: 8px 18px;
+    margin: 8px;
     padding: 8px;
     box-sizing: border-box;
     background-color: #101010;
     border-radius: 10px;
-    text-align: center;
     border: 3px solid #000;
     overflow: hidden;
 }

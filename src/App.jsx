@@ -8,28 +8,28 @@ import Home from "./Pages/Home";
 import Service from "./Pages/Service";
 import Project from "./Pages/Projects";
 import Certificate from "./Pages/Certificates";
-
+import Google from './Pages/Google_cert';
+import Cisco from './Pages/Cisco_cert';
+import Udemy from './Pages/Udemy_cert';
+import Freecode from './Pages/Freecode';
+import Coursera from './Pages/Coursera_cert';
 function App() {
   return (
   <>
   <Border />
   <div className="container">
   <Nav />
-  
-  <div>
   <Routes>
             <Route  path="/" element={<Home />} />
             <Route path="/services" element={<Service />} />
             <Route path="/projects" element={<Project />} />
             <Route path="/certifications" element={<Certificate />} />
-            <Route path="/google-certificates" element={<Certificate />} />
-            <Route path="/cisco-certificates" element={<Certificate />} />
-            <Route path="/udemy-certificates" element={<Certificate />} />
-            <Route path="/freecodecamp-certificates" element={<Certificate />} />
-            <Route path="/coursera-certificates" element={<Home />} />
+            <Route path="/google-certificates" element={<Google />} />
+            <Route path="/cisco-certificates" element={<Cisco />} />
+            <Route path="/udemy-certificates" element={<Udemy />} />
+            <Route path="/freecodecamp-certificates" element={<Freecode />} />
+            <Route path="/coursera-certificates" element={<Coursera />} />
   </Routes>
-  
-  </div>
   </div>
   </>
   )

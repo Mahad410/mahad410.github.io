@@ -1,8 +1,8 @@
 .pr_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 8px;
-    width: 85vw;
+    column-gap: 15px;
+    width: 90vw;
     height: 82vh;
     box-sizing: border-box;
     padding: 8px;
@@ -17,7 +17,7 @@
 .ser_container {
     display: grid;
     grid-template-columns: 0.25fr 1fr;
-    gap: 8px;
+    column-gap: 8px;
     place-items: center;
     margin: 8px auto;
     padding: 8px;
@@ -30,7 +30,6 @@
     overflow: hidden;
     width: 100%;
     height: auto;
-    text-align: center;
 }
 
 .sale_text h3 {

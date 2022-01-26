@@ -52,7 +52,7 @@ function Cert(){
 </div>
 <div className="p_container">
                 <div className="free_image">
-                    <img src={freecode} width="50%" height="90px" alt="freecodecamp"></img>
+                    <img src={freecode} width="40%" height="90px" alt="freecodecamp"></img>
                 </div>
                 <div className="detail">
                   <p>From <span className="co">Freecodecamp</span></p>
