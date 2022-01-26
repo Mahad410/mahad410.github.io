@@ -21,7 +21,7 @@ function Home(){
              if you want to <span className="co">Hire</span> me then <span className="co">Hmu....</span> and if you dont want to <span className="del">hire</span> then do check my <Link to="/projects"><span className="co_und">Projects</span></Link>
         </p>
         <figure className="figure">
-        <blockquote cite="https://www.huxley.net/bnw/four.html">
+        <blockquote>
         <p> The inner fire is the most important thing mankind processes. </p>
         </blockquote>
         <figcaption>—Edith Södergran</figcaption>
