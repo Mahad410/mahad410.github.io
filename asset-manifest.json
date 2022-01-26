@@ -1,20 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b225555.css",
-    "main.js": "/static/js/main.6e9000df.js",
-    "static/js/787.8c081f57.chunk.js": "/static/js/787.8c081f57.chunk.js",
+    "main.css": "/static/css/main.ecfebe59.css",
+    "main.js": "/static/js/main.1e92d674.js",
+    "static/js/787.1d7f70df.chunk.js": "/static/js/787.1d7f70df.chunk.js",
     "static/media/use.webm": "/static/media/use.3980d5e38183423b070b.webm",
-    "static/media/cisco.webp": "/static/media/cisco.6b592ea942581cb8dcfa.webp",
+    "static/media/g_cert.webp": "/static/media/g_cert.94cba4275517b18278b7.webp",
+    "static/media/g_cer.webp": "/static/media/g_cer.0b0edd2d0ce5d37dbc8b.webp",
+    "static/media/linux_essen.webp": "/static/media/linux_essen.6ecb31d7bf527dd71245.webp",
     "static/media/udemy.webp": "/static/media/udemy.2c2f77ed68d1f949b16d.webp",
+    "static/media/net_essen.webp": "/static/media/net_essen.d6cb3e925592169f8e43.webp",
+    "static/media/html_css.pdf": "/static/media/html_css.3183d9d6d21f7b6c5106.pdf",
+    "static/media/coursera.webp": "/static/media/coursera.dfb3e6cf73d402f74bf4.webp",
+    "static/media/entre.webp": "/static/media/entre.3551d42425979c2d0b71.webp",
+    "static/media/cisco.webp": "/static/media/cisco.6b592ea942581cb8dcfa.webp",
+    "static/media/g_cert_d.webp": "/static/media/g_cert_d.cc42165f04e9b84a2594.webp",
+    "static/media/iot.webp": "/static/media/iot.d970078b293c2a73d810.webp",
+    "static/media/cyber.webp": "/static/media/cyber.7f401ab0aa06d2262228.webp",
     "static/media/google.webp": "/static/media/google.73a61f2310bdeb0fde2d.webp",
     "static/media/portfolio.webp": "/static/media/portfolio.b4a6c1cc6d5c05356d0f.webp",
     "static/media/goodwork.webp": "/static/media/goodwork.4f9caed5bb4d54a908b5.webp",
     "static/media/usep.webp": "/static/media/usep.eb1653732b5f14b985e8.webp",
     "static/media/discord.webp": "/static/media/discord.731c8022c34747570aef.webp",
     "static/media/halloween.webp": "/static/media/halloween.b3ed8f8074ab848433a7.webp",
+    "static/media/free.webp": "/static/media/free.a847df663e66c4a838e1.webp",
     "static/media/spotify.webp": "/static/media/spotify.6bb5cfb84cebd278fbfd.webp",
     "static/media/freecode.webp": "/static/media/freecode.a7fc01d7ad45785cd9ac.webp",
-    "static/media/coursera.webp": "/static/media/coursera.dfb3e6cf73d402f74bf4.webp",
     "static/media/mouse.webp": "/static/media/mouse.329dee8f1e89ab06fb17.webp",
     "static/media/site.svg": "/static/media/site.421c2ca4d3f939183f5de6e6aaef43c7.svg",
     "static/media/promo.webp": "/static/media/promo.47d2fc37d818806449d2.webp",
@@ -22,12 +32,12 @@
     "static/media/road.svg": "/static/media/road.db08a0bdcf777e74d52881d80c45f648.svg",
     "static/media/rp.svg": "/static/media/rp.5a0597aa922e275beea52b5e614cb194.svg",
     "index.html": "/index.html",
-    "main.5b225555.css.map": "/static/css/main.5b225555.css.map",
-    "main.6e9000df.js.map": "/static/js/main.6e9000df.js.map",
-    "787.8c081f57.chunk.js.map": "/static/js/787.8c081f57.chunk.js.map"
+    "main.ecfebe59.css.map": "/static/css/main.ecfebe59.css.map",
+    "main.1e92d674.js.map": "/static/js/main.1e92d674.js.map",
+    "787.1d7f70df.chunk.js.map": "/static/js/787.1d7f70df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b225555.css",
-    "static/js/main.6e9000df.js"
+    "static/css/main.ecfebe59.css",
+    "static/js/main.1e92d674.js"
   ]
 }
