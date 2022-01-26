@@ -1,11 +1,43 @@
+.pr_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    width: 85vw;
+    height: 82vh;
+    box-sizing: border-box;
+    padding: 8px;
+    overflow: hidden;
+    position: fixed;
+    margin: auto;
+    top: 15%;
+    left: 0;
+    right: 0;
+}
+
 .ser_container {
-    display: inline-block;
-    margin: 15px;
-    padding: 15px;
+    display: grid;
+    grid-template-columns: 0.25fr 1fr;
+    gap: 8px;
+    place-items: center;
+    margin: 8px auto;
+    padding: 8px;
     box-sizing: border-box;
     background-color: #101010;
     border-radius: 10px;
     text-align: center;
     border: 3px solid #000;
+    word-break: break-word;
     overflow: hidden;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.sale_text h3 {
+    line-height: 50px;
+}
+
+.button_container a {
+    text-decoration: none;
+    color: #000;
 }
