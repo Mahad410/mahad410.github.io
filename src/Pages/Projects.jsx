@@ -18,7 +18,7 @@ function Project(){
         <div className="pro_container">
             <div className="p_container">
                 <div className="image">
-                    <a href="https://mahad410.github.io/discord" target="_blank" rel="noopener noreferrer"><img src={discord} width="100%" height="100%" alt="Discord"></img></a>
+                    <a href="https://mahad410.github.io/discord" target="_blank" rel="noopener noreferrer"><img src={discord} width="100%" height="180px" alt="discord"></img></a>
                 </div>
                 { p0&&(
                 <div className="detail">
@@ -31,7 +31,7 @@ function Project(){
             </div>
             <div className="p_container">
                 <div className="image">
-                <a href="https://mahad410.github.io/spotify" target="_blank" rel="noopener noreferrer"><img src={spotify} width="100%" height="100%" alt="Discord"></img></a>
+                <a href="https://mahad410.github.io/spotify" target="_blank" rel="noopener noreferrer"><img src={spotify} width="100%" height="180px" alt="spotify"></img></a>
                 </div>
                 { p1&&(
                 <div className="detail">
@@ -44,7 +44,7 @@ function Project(){
             </div>
             <div className="p_container">
                 <div className="image">
-                <a href="https://mahad410.github.io/spotify" target="_blank" rel="noopener noreferrer"><img src={halloween} width="100%" height="100%" alt="Discord"></img></a>
+                <a href="https://mahad410.github.io/halloweenproject" target="_blank" rel="noopener noreferrer"><img src={halloween} width="100%" height="180px" alt="halloween"></img></a>
                 </div>
                 { p2&&(
                 <div className="detail">
@@ -57,7 +57,7 @@ function Project(){
             </div>
             <div className="p_container">
                 <div className="image">
-                    <a href="https://mahad410.github.io/porti" target="_blank" rel="noopener noreferrer"><img src={portfolio} width="100%" height="100%" alt="Discord"></img></a>
+                    <a href="https://mahad410.github.io/porti" target="_blank" rel="noopener noreferrer"><img src={portfolio} width="100%" height="180px" alt="portfolio"></img></a>
                 </div>
                 { p3&&(
                 <div className="detail">
@@ -70,7 +70,7 @@ function Project(){
             </div>
             <div className="p_container">
                 <div className="image">
-                <a href="https://mahad410.github.io/goodwork.co" target="_blank" rel="noopener noreferrer"><img src={goodwork} width="100%" height="100%" alt="Discord"></img></a>
+                <a href="https://mahad410.github.io/goodwork.co" target="_blank" rel="noopener noreferrer"><img src={goodwork} width="100%" height="180px" alt="goodwork"></img></a>
                 </div>
                 { p4&&(
                 <div className="detail">
@@ -83,7 +83,7 @@ function Project(){
             </div>
             <div className="p_container">
                 <div className="image">
-                <a href="https://mahad410.github.io/mouse.purecss" target="_blank" rel="noopener noreferrer"><img src={mouse} width="100%" height="100%" alt="Discord"></img></a>
+                <a href="https://mahad410.github.io/mouse.purecss" target="_blank" rel="noopener noreferrer"><img src={mouse} width="100%" height="180px" alt="mouse"></img></a>
                 </div>
                 { p5&&(
                 <div className="detail">
@@ -94,7 +94,7 @@ function Project(){
         { p5 === false ? "Show Details":"Hide Details" }
         </button>
             </div>        
-           <p className="btn-see"> If you want to see all of my projects check out my   <a className="co_und" href="https://github.com/mahad410" target="_blank" rel="noopener noreferrer"> github</a></p>
+           <p className="btn-see"> If you want to see all of my projects check out my <a className="co_und" href="https://github.com/mahad410" target="_blank" rel="noopener noreferrer"> github</a></p>
         </div>
     )
 }

@@ -5,7 +5,7 @@ function Freecode(){
         <div className="pro_container">
            <div className="p_container">
                 <div className="image">
-                    <a href={free} ><img src={free} width="100%" height="200px" alt="cybersec"></img></a>
+                    <a href={free} ><img src={free} width="100%" height="180px" alt="cybersec"></img></a>
                 </div>
                 <div className="detail">
                   <p><span className="co">Responsive Web Design</span></p>

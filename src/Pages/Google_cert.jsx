@@ -7,7 +7,7 @@ function Google(){
         <div className="pro_container">
      <div className="p_container">
                 <div className="image">
-                    <a href={g_cer} ><img src={g_cer} width="100%" height="200px" alt="appreciation"></img></a>
+                    <a href={g_cer} ><img src={g_cer} width="100%" height="180px" alt="appreciation"></img></a>
                 </div>
                 
                 <div className="detail">
@@ -16,7 +16,7 @@ function Google(){
         </div>
         <div className="p_container">
                 <div className="image">
-                    <a href={g_cer} ><img src={g_cert} width="100%" height="200px" alt="completion"></img></a>
+                    <a href={g_cer} ><img src={g_cert} width="100%" height="180px" alt="completion"></img></a>
                 </div>
                 
                 <div className="detail">
@@ -25,7 +25,7 @@ function Google(){
         </div>    
         <div className="p_container">
                 <div className="image">
-                    <a href={g_cert_d} ><img src={g_cert_d} width="100%" height="200px" alt="completion"></img></a>
+                    <a href={g_cert_d} ><img src={g_cert_d} width="100%" height="180px" alt="completion"></img></a>
                 </div>
                 
                 <div className="detail">
