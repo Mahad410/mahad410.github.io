@@ -29,7 +29,7 @@ function Google(){
                 </div>
                 
                 <div className="detail">
-                  <p> Certificate of <span className="co">Completion</span> in <span className="co"> Android Jam</span></p>
+                  <p> Certificate of <span className="co">Completion</span> in <span className="co"> Android Jam</span> bootcamp</p>
                 </div>
         </div>    
         </div>
