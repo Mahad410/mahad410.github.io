@@ -11,7 +11,7 @@
 }
 
 .co {
-    color: orange;
+    color: #ffa500;
 }
 
 .co_text {
@@ -23,7 +23,7 @@
 }
 
 .figure figcaption {
-    color: orange;
+    color: #ffa500;
     margin: 0.5rem auto;
 }
 
@@ -48,11 +48,15 @@
 }
 
 .del {
-    text-decoration: 3px line-through orange;
+    text-decoration: 3px line-through #ffa500;
+    -moz-text-decoration: 3px line-through #ffa500;
+    -webkit-text-decoration: 3px line-through #ffa500;
 }
 
 .co_und {
-    text-decoration: 3px underline orange;
+    text-decoration: 3px underline #ffa500;
+    -moz-text-decoration: 3px underline #ffa500;
+    -webkit-text-decoration: 3px underline #ffa500;
     color: #fff;
 }
 
@@ -69,13 +73,12 @@
     .main-container {
         width: 78vw;
         display: table;
-        top: 10%;
         vertical-align: middle;
         bottom: 0;
+        top: 20%;
     }
     .intro {
         width: auto;
-        height: 86vh;
         overflow: scroll;
     }
     .intro h1 {
@@ -90,9 +93,11 @@
     .main-container {
         width: 78vw;
         display: block;
+        top: 10%;
     }
     .intro {
         width: 95%;
+        height: 86vh;
     }
     .intro h1 {
         font-size: 2.7rem;

@@ -36,6 +36,12 @@
     line-height: 50px;
 }
 
+.button_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .button_container a {
     text-decoration: none;
     color: #000;
@@ -64,11 +70,6 @@
     .sale_text p {
         font-size: 0.7rem;
         line-height: 20px;
-    }
-    .button_container {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
     }
 }
 
