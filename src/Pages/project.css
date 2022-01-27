@@ -71,6 +71,7 @@ img {
 @media screen and (max-width:1000px) {
     .pro_container {
         height: 86vh;
+        padding-bottom: 30px;
     }
     .p_container {
         width: 45%;

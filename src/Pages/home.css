@@ -6,7 +6,7 @@
     display: grid;
     place-items: center;
     grid-template-columns: 1fr 1fr;
-    bottom: 0%;
+    bottom: 1%;
     overflow: hidden;
 }
 
@@ -69,14 +69,14 @@
     .main-container {
         width: 78vw;
         display: table;
-        top: 20%;
+        top: 10%;
         vertical-align: middle;
-        bottom: 1;
-        overflow: scroll;
+        bottom: 0;
     }
     .intro {
         width: auto;
-        height: 85vh;
+        height: 86vh;
+        overflow: scroll;
     }
     .intro h1 {
         font-size: 2.7rem;
@@ -93,7 +93,6 @@
     }
     .intro {
         width: 95%;
-        height: auto;
     }
     .intro h1 {
         font-size: 2.7rem;
