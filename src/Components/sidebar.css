@@ -1,10 +1,10 @@
 .container_side {
     position: fixed;
-    right: 2.5%;
     display: flex;
     justify-content: center;
     height: 100vh;
     top: 1%;
+    right: 3%;
 }
 
 .a {
@@ -15,4 +15,16 @@
 .ul {
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (max-width:1000px) {
+    .container_side {
+        right: 4%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .container_side {
+        right: 6%;
+    }
 }

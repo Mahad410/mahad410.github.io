@@ -1,12 +1,12 @@
 .pro_container {
     width: 90vw;
-    height: 82vh;
+    height: 88vh;
     box-sizing: border-box;
     margin: auto;
     padding: 8px;
     overflow: hidden;
     position: fixed;
-    top: 15%;
+    top: 12%;
     right: 0;
     left: 0;
     text-align: center;
@@ -59,12 +59,22 @@ img {
     opacity: 1;
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1200px) {
     .pro_container {
         width: 100vw;
         overflow: scroll;
+        top: 10%;
     }
+}
+
+@media screen and (max-width:1000px) {
     .p_container {
-        width: 40%;
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .p_container {
+        width: 90%;
     }
 }

@@ -63,19 +63,21 @@ function Service(){
                     </p>
                   </div>
                 </div>
-                <div className="button_container btn-see">
+                <div className="inline">
+                <div className="button_container">
                <a href="mailto:mahadqureshi410@gmail.com">
                  <button className="btn">
                   Hire me
                 </button>
                 </a>
                 </div>
-                <div className="button_container btn-see">
+                <div className="button_container">
                 <Link to="/certifications">
                   <button className="btn">
                   Check out my certifications
                    </button>
                   </Link>
+                </div>
                 </div>
                 </div>
     )

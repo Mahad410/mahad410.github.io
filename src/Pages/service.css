@@ -3,13 +3,13 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 15px;
     width: 90vw;
-    height: 82vh;
+    height: 88vh;
     box-sizing: border-box;
     padding: 8px;
     overflow: hidden;
     position: fixed;
     margin: auto;
-    top: 15%;
+    top: 12%;
     left: 0;
     right: 0;
 }
@@ -41,14 +41,36 @@
     color: #000;
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1200px) {
     .pr_container {
         column-gap: 8px;
     }
     .ser_container {
         display: block;
-        grid-template-columns: 0.25fr 1fr;
+        margin: 8px auto;
+        padding: 8px;
+    }
+    .sale_text h3 {
+        font-size: 1.1rem;
+        line-height: 40px;
+    }
+    .button_container a {
+        text-decoration: none;
+        color: #000;
+    }
+    .sale_text p {
+        font-size: 0.7rem;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .pr_container {
         column-gap: 8px;
+        display: inline-block;
+    }
+    .ser_container {
+        display: grid;
         margin: 5px auto;
         padding: 8px;
     }
@@ -59,5 +81,14 @@
     .button_container a {
         text-decoration: none;
         color: #000;
+    }
+    .sale_text p {
+        font-size: 0.7rem;
+        line-height: 20px;
+    }
+    .inline {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 }

@@ -28,7 +28,7 @@ function Home(){
         </figure>
         </div>
         <div className="video">
-        <video src={use} loop autoPlay={true}  muted poster={usep} width= '100%' height='100%'>
+        <video src={use} loop autoPlay={true}  muted poster={usep} width= '100%' height='auto'>
         </video>
         </div>
         </div>
