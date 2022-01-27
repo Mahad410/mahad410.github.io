@@ -47,3 +47,9 @@ li a:hover .code {
 .active .code {
     visibility: visible;
 }
+
+@media screen and (max-width:1100px) {
+    .navbar {
+        width: 88%;
+    }
+}

@@ -57,7 +57,7 @@ function Service(){
                       </i>
                   </div>
                   <div className="sale_text">
-                  <h3><span className="co">&lt;</span> Need a <span className='co'>Mentor</span>? <span className="co">/&gt;</span></h3>
+                  <h3><span className="co">&lt;</span> Need a <span className='co'>Mentor</span> ? <span className="co">/&gt;</span></h3>
                     <p>
                     Can't figure out what to do? Let me pave out a way for you...
                     </p>

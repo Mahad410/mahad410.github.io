@@ -40,7 +40,7 @@
 
 .intro {
     width: 45vw;
-    height: 50vh;
+    height: auto;
 }
 
 .intro h1 {
@@ -54,4 +54,24 @@
 .co_und {
     text-decoration: 3px underline orange;
     color: #fff;
+}
+
+@media screen and (max-width:1100px) {
+    .main-container {
+        width: 78vw;
+        display: table;
+        top: 15%;
+        bottom: 0;
+        vertical-align: middle;
+    }
+    .intro {
+        width: auto;
+        height: auto;
+    }
+    .intro h1 {
+        font-size: 2.7rem;
+    }
+    .video {
+        display: none;
+    }
 }
