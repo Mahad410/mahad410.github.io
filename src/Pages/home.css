@@ -1,13 +1,13 @@
 .main-container {
     position: fixed;
-    z-index: -9;
     box-sizing: border-box;
     width: 85vw;
     margin: auto;
     display: grid;
     place-items: center;
     grid-template-columns: 1fr 1fr;
-    bottom: 1%;
+    bottom: 0%;
+    overflow: hidden;
 }
 
 .co {
@@ -69,13 +69,14 @@
     .main-container {
         width: 78vw;
         display: table;
-        top: 15%;
+        top: 20%;
         vertical-align: middle;
-        bottom: 0.5%;
+        bottom: 1;
+        overflow: scroll;
     }
     .intro {
         width: auto;
-        height: auto;
+        height: 85vh;
     }
     .intro h1 {
         font-size: 2.7rem;
@@ -85,13 +86,10 @@
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:600px) {
     .main-container {
         width: 78vw;
-        display: table;
-        top: 15%;
-        vertical-align: middle;
-        bottom: 0.5%;
+        display: block;
     }
     .intro {
         width: 95%;

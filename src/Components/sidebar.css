@@ -23,7 +23,7 @@
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:600px) {
     .container_side {
         right: 6%;
     }

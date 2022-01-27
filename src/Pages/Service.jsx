@@ -63,7 +63,7 @@ function Service(){
                     </p>
                   </div>
                 </div>
-                <div className="inline">
+               
                 <div className="button_container">
                <a href="mailto:mahadqureshi410@gmail.com">
                  <button className="btn">
@@ -72,14 +72,14 @@ function Service(){
                 </a>
                 </div>
                 <div className="button_container">
-                <Link to="/certifications">
+                <Link to="/certifications" >
                   <button className="btn">
                   Check out my certifications
                    </button>
                   </Link>
+                  </div>
                 </div>
-                </div>
-                </div>
+               
     )
 }
 export default Service;

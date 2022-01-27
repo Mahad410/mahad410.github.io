@@ -44,6 +44,8 @@
 @media screen and (max-width:1200px) {
     .pr_container {
         column-gap: 8px;
+        overflow: scroll;
+        height: 85vh;
     }
     .ser_container {
         display: block;
@@ -62,9 +64,14 @@
         font-size: 0.7rem;
         line-height: 20px;
     }
+    .button_container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:600px) {
     .pr_container {
         column-gap: 8px;
         display: inline-block;
@@ -85,10 +92,5 @@
     .sale_text p {
         font-size: 0.7rem;
         line-height: 20px;
-    }
-    .inline {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
     }
 }

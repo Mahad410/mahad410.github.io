@@ -52,6 +52,7 @@
 .btn-see {
     display: block;
     text-align: center;
+    padding: 8px;
 }
 
 img {
@@ -68,12 +69,15 @@ img {
 }
 
 @media screen and (max-width:1000px) {
+    .pro_container {
+        height: 86vh;
+    }
     .p_container {
         width: 45%;
     }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width:600px) {
     .p_container {
         width: 90%;
     }
