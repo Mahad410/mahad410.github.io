@@ -6,7 +6,7 @@
     padding: 8px;
     overflow: hidden;
     position: fixed;
-    top: 12%;
+    top: 11%;
     right: 0;
     left: 0;
     text-align: center;
@@ -64,7 +64,6 @@ img {
     .pro_container {
         width: 100vw;
         overflow: scroll;
-        top: 10%;
     }
 }
 

@@ -9,7 +9,7 @@
     overflow: hidden;
     position: fixed;
     margin: auto;
-    top: 12%;
+    top: 11%;
     left: 0;
     right: 0;
 }
@@ -52,7 +52,6 @@
         column-gap: 8px;
         overflow: scroll;
         height: 86vh;
-        top: 10%;
     }
     .ser_container {
         display: block;
