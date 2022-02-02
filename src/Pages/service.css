@@ -83,7 +83,7 @@
         padding: 8px;
     }
     .sale_text h3 {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
         margin: 10px 0;
     }
     .button_container a {
@@ -91,6 +91,6 @@
         color: #000;
     }
     .sale_text p {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 }
