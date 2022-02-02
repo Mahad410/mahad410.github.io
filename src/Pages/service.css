@@ -33,7 +33,7 @@
 }
 
 .sale_text h3 {
-    line-height: 50px;
+    margin: 20px 0;
 }
 
 .button_container {
@@ -60,7 +60,7 @@
     }
     .sale_text h3 {
         font-size: 1.1rem;
-        line-height: 40px;
+        margin: 15px 0;
     }
     .button_container a {
         text-decoration: none;
@@ -68,7 +68,6 @@
     }
     .sale_text p {
         font-size: 0.7rem;
-        line-height: 20px;
     }
 }
 
@@ -85,7 +84,7 @@
     }
     .sale_text h3 {
         font-size: 0.8rem;
-        line-height: 40px;
+        margin: 10px 0;
     }
     .button_container a {
         text-decoration: none;
@@ -93,6 +92,5 @@
     }
     .sale_text p {
         font-size: 0.7rem;
-        line-height: 20px;
     }
 }
