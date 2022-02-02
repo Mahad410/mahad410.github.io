@@ -18,7 +18,7 @@ function Home(){
         </p> 
         <p className="desc">
              <span className="co">Passionate</span> and <span className="co">Inspiring</span> developer who is building his <span className="co">Reputation</span> and will do everything to achieve his <span className="co">Dreams</span>.
-             if you want to <span className="co">Hire</span> me then <span className="co">Hmu....</span> and if you dont want to <span className="del">hire</span> then do check my <Link to="/projects"><span className="co_und">Projects</span></Link>
+             if you want to <span className="co">Hire</span> me then <span className="co_und"><a href="mailto:mahadqureshi410@gmail.com">Contact me</a></span> and if you dont want to <span className="del">hire</span> then do check my <Link to="/projects"><span className="co_und">Projects</span></Link>
         </p>
         <figure className="figure">
         <blockquote>

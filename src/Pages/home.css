@@ -38,6 +38,12 @@
     margin: 1.8rem auto;
 }
 
+.desc a {
+    text-decoration: 3px underline #ffa500;
+    -webkit-text-decoration: 3px underline #ffa500;
+    color: #fff;
+}
+
 .intro {
     width: 45vw;
     height: auto;
@@ -55,7 +61,6 @@
 
 .co_und {
     text-decoration: 3px underline #ffa500;
-    -moz-text-decoration: 3px underline #ffa500;
     -webkit-text-decoration: 3px underline #ffa500;
     color: #fff;
 }
