@@ -96,13 +96,14 @@
 
 @media screen and (max-width:600px) {
     .main-container {
-        width: 78vw;
+        width: 75vw;
         display: block;
-        top: 11%;
+        top: 12%;
+        border: 1px solid red;
     }
     .intro {
         width: 95%;
-        height: 86vh;
+        height: 85vh;
     }
     .intro h1 {
         font-size: 2.7rem;
