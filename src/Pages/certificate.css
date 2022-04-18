@@ -5,4 +5,5 @@
 
 .cor_image {
     margin: 36px auto;
+    box-sizing: border-box;
 }

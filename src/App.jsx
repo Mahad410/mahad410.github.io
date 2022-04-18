@@ -13,6 +13,7 @@ import Cisco from './Pages/Cisco_cert';
 import Udemy from './Pages/Udemy_cert';
 import Freecode from './Pages/Freecode';
 import Coursera from './Pages/Coursera_cert';
+import Sql from './Pages/datacamp';
 function App() {
   return (
   <>
@@ -29,6 +30,7 @@ function App() {
             <Route path="/udemy-certificates" element={<Udemy />} />
             <Route path="/freecodecamp-certificates" element={<Freecode />} />
             <Route path="/coursera-certificates" element={<Coursera />} />
+            <Route path="/datacamp-certificates" element={<Sql />} />
   </Routes>
   </div>
   </>

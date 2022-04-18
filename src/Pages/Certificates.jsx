@@ -4,6 +4,7 @@ import udemy from './certificate_type/udemy.webp';
 import cisco from './certificate_type/cisco.webp';
 import freecode from './certificate_type/freecode.webp';
 import coursera from './certificate_type/coursera.webp';
+import datacamp from './certificate_type/datacamp.svg';
 import './certificate.css';
 import {Link} from 'react-router-dom';
 function Cert(){
@@ -72,6 +73,20 @@ function Cert(){
                 </div>
                 
       <Link to="/coursera-certificates">  <button className="btn">
+        Show All Certificates
+        </button>
+        </Link>
+</div>
+
+<div className="p_container">
+                <div className="free_image">
+                    <img src={datacamp} width="70%" height="86px" alt="datacamp"></img>
+                </div>
+                <div className="detail">
+                  <p>From <span className="co">Data Camp</span></p>
+                </div>
+                
+      <Link to="/datacamp-certificates">  <button className="btn">
         Show All Certificates
         </button>
         </Link>

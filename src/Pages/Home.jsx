@@ -14,7 +14,7 @@ function Home(){
             Mahid Qureshi <span className="co_text">( <span className="co">&lt;</span> Web Developer <span className="co">/&gt;</span> )</span>
         </h1>
         <p className="skills">
-        Developer with skills of <span className="co">HTML</span> | <span className="co">CSS</span> | <span className="co">SASS</span> | <span className="co">Bootstrap</span> | <span className="co">JQuery</span> | <span className="co">JavaScript</span> | <span className="co">WordPress</span>
+        Developer with skills of <span className="co">HTML</span> | <span className="co">CSS</span> | <span className="co">SASS</span> | <span className="co">Bootstrap</span> | <span className="co">JQuery</span> | <span className="co">JavaScript</span> | <span className="co">WordPress</span> | <span className="co">React Js</span>
         </p> 
         <p className="desc">
              <span className="co">Passionate</span> and <span className="co">Inspiring</span> developer who is building his <span className="co">Reputation</span> and will do everything to achieve his <span className="co">Dreams</span>.
