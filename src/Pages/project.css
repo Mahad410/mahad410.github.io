@@ -26,6 +26,7 @@
 
 .p_container img:hover {
     opacity: 0.8;
+    cursor: none;
 }
 
 .btn {
@@ -38,6 +39,7 @@
     font-family: 'Varela Round';
     font-display: swap;
     font-size: 0.9rem;
+    cursor: none;
 }
 
 .btn:hover {

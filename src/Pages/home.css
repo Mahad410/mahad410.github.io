@@ -42,6 +42,7 @@
     text-decoration: 3px underline #ffa500;
     -webkit-text-decoration: 3px underline #ffa500;
     color: #fff;
+    cursor: none;
 }
 
 .intro {
@@ -74,6 +75,7 @@
     color: #fff;
     position: relative;
     text-decoration: none !important;
+    cursor: none;
 }
 
 .co_und::after {
@@ -136,6 +138,10 @@
         font-size: 2.7rem;
     }
     .video {
+        display: none;
+    }
+    .circle,
+    .circle2 {
         display: none;
     }
 }

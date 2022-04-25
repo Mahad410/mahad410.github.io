@@ -11,6 +11,7 @@ body {
     font-family: 'Varela Round';
     -webkit-user-select: none;
     user-select: none;
+    cursor: none !important;
 }
 
 .container {
@@ -22,4 +23,30 @@ body {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+.circle {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #ffa500;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    z-index: 9998;
+    mix-blend-mode: difference;
+    pointer-events: none;
+    transform: scale(1.3);
+}
+
+.circle2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 9999;
+    mix-blend-mode: dark-light;
+    pointer-events: none;
+    transition: 150ms ease-out;
+    transform: scale(1.3);
 }
