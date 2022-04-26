@@ -8,6 +8,7 @@
     grid-template-columns: 1fr 1fr;
     bottom: 1%;
     overflow: hidden;
+    cursor: none;
 }
 
 .co {
@@ -95,16 +96,17 @@
     height: 20px;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
     .main-container {
         bottom: 1.2%;
     }
+
     .intro h1 {
         font-size: 2.2rem;
     }
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 1000px) {
     .main-container {
         width: 78vw;
         display: table;
@@ -112,34 +114,41 @@
         bottom: 0;
         top: 20%;
     }
+
     .intro {
         width: auto;
         overflow: scroll;
     }
+
     .intro h1 {
         font-size: 2.7rem;
     }
+
     .video {
         display: none;
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
     .main-container {
         width: 76vw;
         display: block;
         top: 12%;
     }
+
     .intro {
         width: 95%;
         height: 85vh;
     }
+
     .intro h1 {
         font-size: 2.7rem;
     }
+
     .video {
         display: none;
     }
+
     .circle,
     .circle2 {
         display: none;

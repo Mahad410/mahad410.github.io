@@ -47,49 +47,57 @@
     color: #000;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
     .pr_container {
         column-gap: 8px;
         overflow: scroll;
         height: 86vh;
     }
+
     .ser_container {
         display: block;
         margin: 8px auto;
         padding: 8px;
     }
+
     .sale_text h3 {
         font-size: 1.1rem;
         margin: 15px 0;
     }
+
     .button_container a {
         text-decoration: none;
         color: #000;
     }
+
     .sale_text p {
         font-size: 0.7rem;
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
     .pr_container {
         column-gap: 8px;
         display: inline-block;
         padding-bottom: 30px;
     }
+
     .ser_container {
         display: grid;
         margin: 5px auto;
         padding: 8px;
     }
+
     .sale_text h3 {
         font-size: 0.7rem;
         margin: 10px 0;
     }
+
     .button_container a {
         text-decoration: none;
         color: #000;
     }
+
     .sale_text p {
         font-size: 0.6rem;
     }
