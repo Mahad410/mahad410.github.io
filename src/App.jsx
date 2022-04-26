@@ -15,8 +15,8 @@ import Freecode from './Pages/Freecode';
 import Coursera from './Pages/Coursera_cert';
 import Sql from './Pages/datacamp';
 function App() {
-  const onload = window.addEventListener("load",()=>{
-    const crc =document.getElementById('crc');
+  window.addEventListener("load",()=>{
+  const crc =document.getElementById('crc');
   const sCrc =document.getElementById('crc2');
   window.addEventListener('mousemove', (e)=>{
     crc.style.top = (e.pageY - 15) + 'px';
@@ -30,8 +30,6 @@ function App() {
   <Border />
   <div className="container">
   <Nav />
-  <div className="circle" id="crc"/>
-  <div className="circle2" id="crc2"/>
   <Routes>
             <Route  path="/" element={<Home />} />
             <Route path="/services" element={<Service />} />
@@ -44,7 +42,10 @@ function App() {
             <Route path="/coursera-certificates" element={<Coursera />} />
             <Route path="/datacamp-certificates" element={<Sql />} />
   </Routes>
+    <div className="circle" id="crc"/>
+  <div className="circle2" id="crc2"/>
   </div>
+
   </>
   )
 }

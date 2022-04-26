@@ -8,6 +8,7 @@
     grid-template-columns: 1fr 1fr;
     bottom: 1%;
     overflow: hidden;
+    cursor: none;
 }
 
 .co {
