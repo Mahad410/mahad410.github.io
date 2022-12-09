@@ -1,0 +1,4 @@
+.cert_logo img{
+    max-width: 160px;
+    object-fit: contain;
+}

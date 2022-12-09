@@ -1,0 +1,150 @@
+.main-container {
+    position: fixed;
+    box-sizing: border-box;
+    width: 85vw;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    bottom: 1%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    cursor: none;
+}
+
+.co {
+    color: #ffa500;
+}
+
+.co_text {
+    font-size: 1.2rem;
+}
+
+.figure {
+    margin: 5rem auto;
+}
+
+.figure figcaption {
+    color: #ffa500;
+    margin: 0.5rem auto;
+}
+
+.skills {
+    margin: 1.5rem auto;
+    font-size: 1.3rem;
+}
+
+.desc {
+    font-size: 1.1rem;
+    line-height: 25px;
+    margin: 1.8rem auto;
+}
+
+.desc a {
+    text-decoration: 3px underline #ffa500;
+    -webkit-text-decoration: 3px underline #ffa500;
+    color: #fff;
+    cursor: none;
+}
+
+.intro {
+    width: 45vw;
+    height: auto;
+}
+
+.intro h1 {
+    font-size: 2.9rem;
+}
+
+.del {
+    position: relative;
+    text-decoration: none;
+}
+
+.del::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    background-color: #ffa500;
+    height: 3px;
+    z-index: -9996;
+    transform-origin: center;
+}
+
+.co_und {
+    color: #fff;
+    position: relative;
+    text-decoration: none !important;
+    cursor: none;
+}
+
+.co_und::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffa500;
+    height: 20px;
+    z-index: -9996;
+    transform-origin: bottom;
+    transition: 300ms all ease-in-out;
+}
+
+.co_und:hover::after {
+    height: 2px;
+}
+
+@media screen and (max-width:1200px) {
+    .main-container {
+        bottom: 1.2%;
+    }
+    .intro h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .main-container {
+        width: 78vw;
+        display: table;
+        vertical-align: middle;
+        bottom: 0;
+        top: 20%;
+    }
+    .intro {
+        width: auto;
+        overflow: scroll;
+    }
+    .intro h1 {
+        font-size: 2.7rem;
+    }
+    .video {
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .main-container {
+        width: 76vw;
+        display: block;
+        top: 12%;
+    }
+    .intro {
+        width: 95%;
+        height: 85vh;
+    }
+    .intro h1 {
+        font-size: 2.7rem;
+    }
+    .video {
+        display: none;
+    }
+    .circle,
+    .circle2 {
+        display: none;
+    }
+}

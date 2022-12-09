@@ -1,0 +1,30 @@
+.container_side {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    top: 1%;
+    right: 3%;
+}
+
+.a {
+    -ms-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1000px) {
+    .container_side {
+        right: 4%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container_side {
+        right: 7%;
+    }
+}
